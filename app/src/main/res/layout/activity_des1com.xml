@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/des1"
+    tools:context="com.example.omarm.lines.Des1com">
+
+    <LinearLayout
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="49dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adress"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            android:textSize="8sp" />
+
+        <EditText
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:hint="WebSit"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            android:textSize="8sp" />
+
+        <EditText
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:inputType="textEmailAddress"
+            android:hint="E-mail"
+            android:textColorHint="#000000"
+            android:textSize="8sp" />
+
+        <EditText
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:inputType="number|phone|textPersonName"
+            android:hint="Phone"
+            android:textColorHint="#000000"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="112dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/des1img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/app_logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/s"
+        android:layout_width="303dp"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:inputType="textPersonName"
+            android:hint="YOUR HEADLINE"
+            android:textColor="#37A1CB"
+            android:textColorHint="#37A1CB"
+            android:textSize="17sp"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="TextView"
+            android:inputType="textPersonName"
+            android:textColor="#B6B6B6"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="309dp"
+        android:layout_height="235dp"
+        android:layout_below="@+id/s"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edit Text"
+
+            android:textColor="#B6B6B6" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/textView27"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/s"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/signture"
+        android:hint="Signature"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:text="save" />
+
+
+</RelativeLayout>

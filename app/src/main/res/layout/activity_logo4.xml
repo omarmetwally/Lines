@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo4"
+    tools:context="com.example.omarm.lines.logo4">
+
+    <EditText
+        android:id="@+id/textView36"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="HARMONY"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="LEADER TRADING GROUP"
+        android:textColor="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView36"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:text="save" />
+</RelativeLayout>

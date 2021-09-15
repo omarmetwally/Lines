@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app"
+    tools:context="com.example.omarm.lines.final_order">
+
+    <RelativeLayout
+        android:layout_width="246dp"
+        android:layout_height="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView42"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"
+            android:text="Quantity"
+            android:textColor="#195B61"
+            android:textSize="21sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/increment"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="18dp"
+            android:onClick="inc"
+            android:text="+"
+            android:textColor="#195B61"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/countNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/decrement"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="78dp"
+            android:textColor="#195B61"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/decrement"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="18dp"
+            android:onClick="dec"
+            android:text="-"
+            android:textColor="#195B61"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="231dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="dd"
+            android:text="On Delivery"
+            android:textColor="#195B61" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="cc_number"
+            android:text="Credit Card"
+            android:textColor="#195B61" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cc_num"
+        android:layout_marginTop="-244dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textColor="#195B61" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="192dp"
+        android:text="Payment Method"
+        android:textColor="#195B61"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/address"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColor="#195B61" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/cc_num"
+        android:layout_marginTop="124dp"
+        android:text="Price"
+        android:textColor="#195B61"
+        android:textSize="21sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView43"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="110dp"
+        android:text="0 $"
+        android:textColor="#195B61"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/cc_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="244dp"
+        android:layout_marginStart="24dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="done"
+        android:text="Done"
+        android:textColor="#195B61" />
+</RelativeLayout>

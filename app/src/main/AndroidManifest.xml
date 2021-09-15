@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.omarm.lines">
+
+<uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="Lines"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Resturant" />
+        <activity android:name=".Banking" />
+        <activity android:name=".Traning" />
+        <activity android:name=".Travel" />
+        <activity android:name=".Real" />
+        <activity android:name=".Media" />
+        <activity android:name=".rest_flyers" />
+        <activity android:name=".templete1_edit" />
+        <activity android:name=".tempTwo" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Des1com" />
+        <activity android:name=".commercial" />
+        <activity android:name=".des2_comm" />
+        <activity android:name=".des3_comm" />
+        <activity android:name=".logo1" />
+        <activity android:name=".logo" />
+        <activity android:name=".logo2" />
+        <activity android:name=".logo3" />
+        <activity android:name=".logo4" />
+        <activity android:name=".company" />
+        <activity android:name=".store" />
+        <activity android:name=".interFace" />
+        <activity android:name=".final_order"></activity>
+    </application>
+
+</manifest>

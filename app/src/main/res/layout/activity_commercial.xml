@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app"
+    tools:context="com.example.omarm.lines.commercial">
+
+    <ImageView
+        android:id="@+id/desOne"
+        android:layout_width="117dp"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/des1_real" />
+
+    <ImageView
+        android:id="@+id/dess2"
+        android:layout_width="117dp"
+        android:layout_height="118dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginTop="27dp"
+        app:srcCompat="@drawable/des2_real" />
+
+    <ImageView
+        android:id="@+id/dess3"
+        android:layout_width="118dp"
+        android:layout_height="118dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/desOne"
+        android:layout_marginTop="196dp"
+        app:srcCompat="@drawable/des3_real" />
+
+</RelativeLayout>
